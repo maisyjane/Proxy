@@ -23,9 +23,15 @@ def get_argument(function_name):
         if key == function_name:
             arg = dictionary[key].split('|')
             return arg[1]
-        #else error
 
 
-#def configurable_update():
-    #if its already in the dictionary update it as you need if its not then return an error
+def configurable_update(function, data):
+    found = False
+    for key in dictionary.keys():
+        if key == function:
+            found = True
+            dictionary[function] = data
+    if not found:
+        dictionary[function] = data
+
 
