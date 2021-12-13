@@ -1,6 +1,6 @@
 # list of associative arrays
 dictionary = {"charcount": "http://charcount.editor.qpc.hal.davecutting.uk|text",
-              "wordcount": "http://wordcount.editor.qpc.hal.davecutting.uk|text",
+              "wordcount": "http://wordcount.40225143.qpc.hal.davecutting.uk|text",
               "vowelcount": "http://vowelcount.40225143.qpc.hal.davecutting.uk|x",
               "andcount": "http://instancesofand.40225143.qpc.hal.davecutting.uk|x",
               "avgwordlength": "http://averagewordlength.40225143.qpc.hal.davecutting.uk|",
